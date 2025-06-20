@@ -21,7 +21,7 @@ const Main = () => {
         
         <div className=''>
             <Image
-                src="/image.png"
+                src="./image.png"
                 alt="Toujar's Image"
                 width={500}
                 height={500}
@@ -35,39 +35,39 @@ const Main = () => {
         <span className='text-gray-500 text-3xl'>What I have done so for</span>
         <h1 className='text-4xl'>Projects</h1>
         <div className='flex space-x-26 mb-1'><Image
-                src="/Home.png"
+                src="./Home.png"
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-23 mt-18'
             />
             <Image
-                src="/Whattsup.png"
+                src="./Whattsup.png"
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-23 mt-18'
             />
             <Image
-                src="/expense.png"
+                src="./expense.png"
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-23 mt-18'
             /><Image
-                src="/youtube.png"
+                src="./youtube.png"
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-22 mt-18'
             /><Image
-                src="/clg.png"
+                src="./clg.png"
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-22 mt-18'
             /><Image
-                src="/health.png"
+                src="./health.png"
                 alt="Toujar's Image"
                 width={50}
                 height={50}
