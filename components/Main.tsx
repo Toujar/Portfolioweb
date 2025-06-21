@@ -80,7 +80,7 @@ const Main = () => {
                 className='ml-22 mt-18'
             /><Image
                 // src="./health.png"
-                src={`${basePath}/imagehealth.png`}
+                src={`${basePath}/health.png`}
                 alt="Toujar's Image"
                 width={50}
                 height={50}
