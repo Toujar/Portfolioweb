@@ -1,5 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+// import { useRouter } from 'next/router'
+// const { basePath } = useRouter()
+// import { usePathname } from 'next/navigation'
+
+const basePath = process.env.NODE_ENV === 'production' ? '/Portfolioweb' : ''
+
 
 const Main = () => {
   return (
@@ -21,7 +27,8 @@ const Main = () => {
         
         <div className=''>
             <Image
-                src="./image.png"
+                // src="./image.png"
+                src={`${basePath}/image.png`}
                 alt="Toujar's Image"
                 width={500}
                 height={500}
@@ -35,39 +42,45 @@ const Main = () => {
         <span className='text-gray-500 text-3xl'>What I have done so for</span>
         <h1 className='text-4xl'>Projects</h1>
         <div className='flex space-x-26 mb-1'><Image
-                src="./Home.png"
+                // src="./Home.png"
+                src={`${basePath}/Home.png`}
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-23 mt-18'
             />
             <Image
-                src="./Whattsup.png"
+                // src="./Whattsup.png"
+                src={`${basePath}/Whattsup.png`}
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-23 mt-18'
             />
             <Image
-                src="./expense.png"
+                // src="./expense.png"
+                src={`${basePath}/expense.png`}
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-23 mt-18'
             /><Image
-                src="./youtube.png"
+                // src="./youtube.png"
+                src={`${basePath}/youtube.png`}
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-22 mt-18'
             /><Image
-                src="./clg.png"
+                // src="./clg.png"
+                src={`${basePath}/clg.png`}
                 alt="Toujar's Image"
                 width={50}
                 height={50}
                 className='ml-22 mt-18'
             /><Image
-                src="./health.png"
+                // src="./health.png"
+                src={`${basePath}/imagehealth.png`}
                 alt="Toujar's Image"
                 width={50}
                 height={50}
